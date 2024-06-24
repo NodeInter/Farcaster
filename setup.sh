@@ -33,7 +33,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # Open port
 sudo ufw allow 22
+sudo ufw allow 2282
 sudo ufw allow 2283
+sudo ufw allow 2284
+sudo ufw allow 2285
+sudo ufw allow 3000
 sudo ufw enable
 sudo ufw reload
 
