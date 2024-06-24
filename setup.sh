@@ -31,6 +31,12 @@ sudo apt-get update
 # Install docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+# Open port
+sudo ufw allow 22
+sudo ufw allow 2283
+sudo ufw enable
+sudo ufw reload
+
 # Open New Screen
 screen -S farcaster
 
