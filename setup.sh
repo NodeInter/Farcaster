@@ -39,7 +39,7 @@ sudo ufw allow 2284
 sudo ufw allow 2285
 sudo ufw allow 3000
 sudo ufw enable
-sudo ufw reload -y
+sudo ufw reload 
 
 # Open New Screen
 screen -S farcaster
